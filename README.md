@@ -4,12 +4,13 @@ This labwork involves uploading an index.html file to an s3 Bucket. The S3 will 
 
 BELOW IS A STEP BY STEP PROCEDURE THAT WAS ACHIEVED USING THE AWS MANAGEMENT CONSOLE
 
+Navigated to S3 console and created an s3 bucket
 ![image alt](https://github.com/Gertrudechichi/Cloudfront/blob/c132455b3ea7015982a917af57a615b30d38cfe7/01_S3_Bucket%20creation%20cofiguration.png)
 
-
+All public access was blocked beacuse i wanted the users to access the website directly from the the cached content.
 ![image alt](https://github.com/Gertrudechichi/Cloudfront/blob/c132455b3ea7015982a917af57a615b30d38cfe7/02_Blocking%20of%20Public%20access%20to%20S3%20bucket.png)
 
-
+Next the index.html file was uploaded into the S3 bucket.Since all public access to the bucket was blocked, the bucket endpoint was not accessible in the browser. As mentioned earlier, the main objective is to allow cloudfront to access the bucket and serve contents to users. 
 ![image alt](https://github.com/Gertrudechichi/Cloudfront/blob/c132455b3ea7015982a917af57a615b30d38cfe7/03_Successful%20creation%20of%20S3%20bucket.png)
 
 ![image alt](https://github.com/Gertrudechichi/Cloudfront/blob/c132455b3ea7015982a917af57a615b30d38cfe7/04_HTML%20file%20upload%20in%20S3%20Bucket.png)
