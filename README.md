@@ -15,6 +15,13 @@ The step by step procedure that was involved is shown below.
 
 
 
+
+
+
+
+
+
+
 Navigated to S3 console and created an s3 bucket
 
 
