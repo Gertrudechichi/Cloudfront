@@ -16,6 +16,9 @@ All public access was blocked beacuse i wanted the users to access the website d
 
 ![image alt](https://github.com/Gertrudechichi/Cloudfront/blob/c132455b3ea7015982a917af57a615b30d38cfe7/02_Blocking%20of%20Public%20access%20to%20S3%20bucket.png)
 
+
+
+
 Next the index.html file was uploaded into the S3 bucket.Since all public access to the bucket was blocked, the bucket endpoint was not accessible in the browser. As mentioned earlier, the main objective is to allow cloudfront to access the bucket and serve contents to users. 
 
 
@@ -23,15 +26,28 @@ Next the index.html file was uploaded into the S3 bucket.Since all public access
 ![image alt](https://github.com/Gertrudechichi/Cloudfront/blob/c132455b3ea7015982a917af57a615b30d38cfe7/03_Successful%20creation%20of%20S3%20bucket.png)
 
 
+
+
+
 The file was successfully uploaded into the bucket as shown.
+
+
 
 
 ![image alt](https://github.com/Gertrudechichi/Cloudfront/blob/c132455b3ea7015982a917af57a615b30d38cfe7/04_HTML%20file%20upload%20in%20S3%20Bucket.png)
 
+
+
+
 The s3 bucket thet was created was selected as the origin domain .
 
 
+
+
 ![image alt](https://github.com/Gertrudechichi/Cloudfront/blob/c132455b3ea7015982a917af57a615b30d38cfe7/05_Cloudfront%20distribution%20configuration%20_origin%20domain%20indiacted.png)
+
+
+
 
 
 Other configurations we set as shown below  and teh distribution was successfully created
@@ -53,11 +69,24 @@ The bucket poolicy was updated to allow cloudfront to access the contents of the
 
 
 
+
+
+
+
+
 ![image alt](https://github.com/Gertrudechichi/Cloudfront/blob/c132455b3ea7015982a917af57a615b30d38cfe7/11_Updated%20bucket%20policy.png)
 
 ![image alt](https://github.com/Gertrudechichi/Cloudfront/blob/c132455b3ea7015982a917af57a615b30d38cfe7/12_Successful%20editing%20of%20the%20bucket%20policy.png)
 
-The distributed domain name was copied and pasted in the browser and it displayed the static website
+
+
+
+The distributed domain name was copied and pasted in the browser and it displayed the static website.
+
+
+
+
+
 
 
 
