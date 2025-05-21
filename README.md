@@ -1,6 +1,9 @@
+
+
+CLOUDFRONT DEMO
+
+
 Cloudfront is Amazon's Content Network. Edge locations are are physiscal sites which are distributed across the globe.Cloudfront cache contents to users using edge locations and this ensures that contents are delivered to users through caching and this brings about low latency.
-
-
 
 
 
