@@ -1,8 +1,16 @@
 Cloudfront is Amazon's Content Network. Edge locations are are physiscal sites which are distributed across the globe.Cloudfront cache contents to users using edge locations and this ensures that contents are delivered to users through caching and this brings about low latency.
 
-This labwork involves uploading an index.html file to an s3 Bucket. The S3 will be setup to work with cloudfront to deliver contents to users.
 
-BELOW IS A STEP BY STEP PROCEDURE THAT WAS ACHIEVED USING THE AWS MANAGEMENT CONSOLE
+
+
+
+
+
+
+This labwork involves uploading an index.html file to an s3 Bucket. The S3 was setup to work with cloudfront to deliver contents to users.
+The step by step procedure that was involved is shown below. 
+
+
 
 Navigated to S3 console and created an s3 bucket
 
