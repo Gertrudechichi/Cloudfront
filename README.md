@@ -1,9 +1,14 @@
+AWS CLOUDFRONT
+Networking is a very essential concept in AWS. The AWS global infrastructure is very intriguing and what catches my attention the most about the global infrastructure is the Amazon CloudFront which is a content delivery network. 
+
+A cooperate organization can have its Local Area Network for effective collaboration among teams. The internet, which is a Wide Area Network has a lot of IP addresses representing several applications hosted on servers and made publicly accessible. Just like the internet, which is a Wide Area Network, A Content Delivery Network, CloudFront can also be considered as a Wide Area Network that is not restricted to any region, availability zone or datacenter. AWS CloudFront spans through multiple regions.
+
+Just like a network mainly comprise of a router and nodes or a network may comprise of a VPC and an internet gateway. A Content Delivery Network has a gateway which is the CloudFront and its corresponding nodes which are the edge locations. The CloudFront representing the gateway or a checkpoint can fetch contents from the origin server like S3 if and only if the origin server is configured to permit access to the CloudFront.  the origin access control policy is attached to the s3 bucket and this is a security mechanism for CloudFront to access the origin server content.
+
+Anytime a user tries to access a particular content from the browser, the request is directed to the Content Delivery Network with CloudFront as the checkpoint and its edge locations. if the edge location has cached contents from the origin server, the contents are served to the user with low latency, hence increased performance. However, if there is no cached contents at the edge location, CloudFront , the gateway of the network will have to access the origin server for its contents. Since CloudFront is a managed service by AWS, the routing of the packet of data from the origin server to the edge location is handled by AWS and AWS routes the server contents to the nearest edge location and from there, the contents will be accessible by the user.
 
 
-CLOUDFRONT DEMO
 
-
-Cloudfront is Amazon's Content Network. Edge locations are are physiscal sites which are distributed across the globe.Cloudfront cache contents to users using edge locations and this ensures that contents are delivered to users through caching and this brings about low latency.
 
 
 
