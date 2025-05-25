@@ -1,4 +1,7 @@
 AWS CLOUDFRONT
+
+
+
 Networking is a very essential concept in AWS. The AWS global infrastructure is very intriguing and what catches my attention the most about the global infrastructure is the Amazon CloudFront which is a content delivery network. 
 
 A cooperate organization can have its Local Area Network for effective collaboration among teams. The internet, which is a Wide Area Network has a lot of IP addresses representing several applications hosted on servers and made publicly accessible. Just like the internet, which is a Wide Area Network, A Content Delivery Network, CloudFront can also be considered as a Wide Area Network that is not restricted to any region, availability zone or datacenter. AWS CloudFront spans through multiple regions.
