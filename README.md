@@ -1,6 +1,9 @@
 AWS CLOUDFRONT
 
 
+![image alt](https://github.com/Gertrudechichi/Cloudfront/blob/65ba834f6fe779baad1260a8a2ad2647de1d3da1/amazon%20cloudfront.png)
+
+
 
 Networking is a very essential concept in AWS. The AWS global infrastructure is very intriguing and what catches my attention the most about the global infrastructure is the Amazon CloudFront which is a content delivery network. 
 
